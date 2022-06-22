@@ -6,7 +6,7 @@
 
 
 
-.mt-50
+.title
 {
     margin-top: 50px;
 
@@ -17,7 +17,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 85px;
+
 }
 
 
