@@ -37,7 +37,7 @@ def predict():
         prediction = learning_model.predict(pd.DataFrame(columns=['make/model', 'year', 'odometer', 'state', 'condition'],
                                                      data=np.array([make_model, year, miles, state, condition
                                                                     ]).reshape(1, 5)))
-        if int(miles) > 299999:
+        if int(miles) > 299999 or prediction<0:
             return "Your car is worth approximately $0.00"
 
 
