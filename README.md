@@ -1,1 +1,2 @@
 Web application for predicting the price of a used car. Built a multiple linear regression machine learning algorithm in Jupyter Notebook to predict the independent variable of price based on dependent variables such as make, model, year, miles, condition, and state. Dataset from Kaggle uses 2015 as the current year https://www.kaggle.com/datasets/tunguz/used-car-auction-prices
+Deployed at  https://used-car-price-1.herokuapp.com/
